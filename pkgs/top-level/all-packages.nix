@@ -5776,6 +5776,8 @@ in
 
   targetcli = callPackage ../os-specific/linux/targetcli { };
 
+  tarix = callPackage ../tools/archivers/tarix { };
+
   tarsnap = callPackage ../tools/backup/tarsnap { };
 
   tarsnapper = callPackage ../tools/backup/tarsnapper { };
