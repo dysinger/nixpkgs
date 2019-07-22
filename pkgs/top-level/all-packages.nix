@@ -17438,6 +17438,8 @@ in
 
   freecad = callPackage ../applications/graphics/freecad { mpi = openmpi; };
 
+  freedv = callPackage ../applications/audio/freedv { };
+
   freemind = callPackage ../applications/misc/freemind { };
 
   freenet = callPackage ../applications/networking/p2p/freenet { };
